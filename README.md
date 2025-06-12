@@ -52,8 +52,8 @@ Uygulama, **katmanlı mimari** prensibine ve **SOLID** yazılım geliştirme ilk
 ### 2. Projeyi klonla
 
 ```bash
-git clone https://github.com/kullanici/proje-adi.git
-cd proje-adi
+git clone hhttps://github.com/fikriisik/SolidEcommerceApi.git
+cd SolidEcommerceApi
 ```
 
 ### 3. Docker ortamını başlat
