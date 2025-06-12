@@ -89,7 +89,7 @@ Swagger UI ile API uç noktalarını kolayca test edebilirsiniz. Docker ortamın
 ### 🔗 Arayüze Erişim
 
 ```
-http://localhost:8001/swagger
+http://localhost:5000/swagger
 ```
 
 ### 🔐 JWT ile Yetkilendirme
@@ -107,21 +107,13 @@ http://localhost:8001/swagger
 4. Artık `[Authorize]` anotasyonuna sahip endpoint’leri test edebilirsiniz.
 
 ---
-
-## 📬 Postman Koleksiyonu
-
-API'yi test etmek için hazır bir [Postman koleksiyonu](https://www.postman.com/) dosyası sunulmaktadır.
-
-1. `docs/PostmanCollection.json` yolundaki dosyayı Postman'e import edin.
-2. `Login` endpoint’i ile token alın.
-3. Token’ı environment’a tanımlayarak korumalı endpoint’leri test edin.
-
 ---
 
 ## 📈 Redis Insight ile Monitoring
 
 Token'ların Redis üzerinde nasıl tutulduğunu görselleştirmek ve izlemek için [Redis Insight](https://redis.com/redis-enterprise/redis-insight/) aracı kullanılabilir.
 
+http://localhost:8002/
 ### Bağlantı Kurulumu
 
 Redis container çalışır durumdayken, Redis Insight uygulamasına bağlanmak için:
